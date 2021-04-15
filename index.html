@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+    	body{
+    		background-color: #fffaf0;
+    	}
+    	div.header{
+    		position: relative;
+    		width: 100%;
+    		height: 10%;
+    	}
+    	.header img{
+    		height: 80%;
+    		width: 100%;
+    	}
+    	.navbar{
+    		position: absolute;
+    		top: 0;
+    		z-index: 1;
+    	}
+    	.navbar ul{
+    		display: flex;
+    		list-style-type: none;
+    	}
+    	.navbar ul li a{
+    		text-decoration: none;
+    		color: black;
+    		
+    		padding: 0.75cm;
+    		font-size: 125%;
+    	}
+    	.second_image{
+    		position: absolute;
+    		right: 0;
+    		left: 0;
+    		top: 0;
+    		bottom: 0;
+    		height: 100%;
+    		width: 100%;
+    		/*background-color: blue;*/
+    		                                                               opacity: 0; 
+    		                                                               /*OR*/
+    		                                                                /*display: none;*/
+    		                                                                transition: 1s ease;
+    	}
+    	.second_image img{
+    		height: 100%;
+    		width: 100%;
+    	}
+    	.header:hover .second_image{
+    		opacity: 1;
+    		display: block;
+    	}
+    	.header:hover .navbar ul li a{
+    		color:white;
+    	}
+    	.header:hover .navbar ul li a:hover{
+    		color:#00b9fb;
+    	}
+    	.para1{
+    		/*color: grey;*/
+    		position: relative;
+    		top:200px;
+    		display: flex;
+    		margin: 50px;
+    		margin-right: 25px;
+    		/*background-color: #dbe9f4;*/
+    	}
+    	.para1text{
+    		width: 50%;
+    		font-family: serif;
+    		font-size: 150%;
+    	}
+    	.para2{
+    		position: relative;
+    		top: 400px;
+    		margin: 50px;
+    		font-family: serif;
+    		font-size: 150%;
+    	}
+    	.hobbie{
+    		position: relative;
+    		display: flex;
+    		justify-content: center;
+    		flex: 2;
+    		top: 100px;
+    	}
+    	.hb1{
+    		width: 18%;
+    		height: 400px;
+    		text-align: center;
+    		margin: auto;
+    		margin-top: 100px;
+    		font-family: cursive;
+    		background-image: url('cam4.jpg');
+    		background-size: cover;
+    		border-radius: 40px;
+    	}
+    	.hb1 a{
+    		text-decoration: none;
+    		color: white;
+    	}
+    	.hb2{
+    		width: 18%;
+    		height: 400px;
+    		text-align: center;
+    		margin: auto;
+    		margin-top: 100px;
+    		font-family: cursive;
+    		background-image: url('tel1.jpg');
+    		background-size: cover;
+    		border-radius: 40px;
+    		color: white;
+    	}
+    	.hb3{
+    		width: 18%;
+    		height: 400px;
+    		text-align: center;
+    		margin: auto;
+    		margin-top: 100px;
+    		font-family: cursive;
+    		background-image: url('ds.jpg');
+    		background-size: cover;
+    		border-radius: 40px;
+    		color: white;
+    	}
+    	.para3{
+    		position: relative;
+    		top: 700px;
+    	}
+    	.para3text{
+    		position: relative;
+    		top: 100px;
+    		text-align: center;
+    		font-size: 150%;
+    		font-family: serif;
+    	}
+    	.para4{
+    		position: relative;
+    		top: 1000px;
+    	}
+    	.para4icons{
+    		display: flex;
+    		position: relative;
+    		justify-content: center;
+    		top: 100px;
+    	}
+    	.para4icons div{
+    		margin: 50px;
+    	}
+    	.footer{
+    		position: relative;
+    		top :1600px;
+    		height: 250px;
+    		background-color: #d3d3d3;
+    	}
+
+    </style>
+</head>
+    <body>
+<!-- 
+
+
+
+
+
+
+
+
+ -->
+    	<div class="header"><img src="mikasa.png">
+    		<div class="navbar">
+    			<ul>
+    				<li><a href="#About">About</a></li>
+    				<li><a href="#Hobbies">Hobbies</a></li>
+    				<!-- <li><a href="#Achieve">Achievements</a></li> -->
+    				<li><a href="#Works">Works</a></li>
+    				<li><a href="#Contact">Contact</a></li>
+    			</ul>
+    		</div>
+    		<div class="second_image"><img src="eren.png"></div></div>
+<!-- 
+
+
+
+
+
+
+
+
+
+ -->
+    	<div class="para1" id="About">
+    		<div class="para1text" style="margin:  30px;"><h2>About Me</h2>
+    		<p>Hello guys, I am Arpit Kumar Rai, a First-Year undergraduate student from the department of Computer Science and Engineering in IIT Kanpur or so I believe(You can never be sure now xd).</p>
+    		<p>More about me huh..<br>Freakin curious about everything.. cant refrain myself from doing something I like hehe.. <br>Epistemophiliac (You may want to google it :) <br></p></div>
+    		<img src="img1.jpeg" style="width: 40%; border-radius: 20px;"> 
+    	</div>
+<!-- 
+
+
+
+
+
+
+
+
+
+    	 -->
+    	<div class="para2" id="Hobbies">
+    		<div style=" height: 300px;width: 300px;background-color: #4682B4; margin: auto; font-family: cursive; border-radius: 150px;">
+    		<div style="text-align: center; position: relative; top: 30%;">	<h2>Hobbies</h2>
+    		<p>Ummm... lemme think </p></div></div>
+    		<div class="hobbie">
+    			<div class="hb1">
+    				<a href="gallery.html" style="position: relative; top: 40%">Photography<br>
+    				Click to see some of my shots :)<br></a>
+    			</div>
+    			<div class="hb2"><div style="position: relative; top: 50%">Amateur Atronomy</div>
+    		    </div>
+    		    <div class="hb3" ><div style="position: relative; top: 40%">Anime lover as you might have already noticed</div></div>
+    		</div>
+    	</div>
+<!-- 
+
+
+
+
+
+
+
+
+    	 -->
+    	 <div class="para3" id="Works">
+    		<div style=" height: 300px;width: 300px;background-color: #4682B4; margin: auto; font-family: cursive; border-radius: 150px;">
+    		<div style="text-align: center; position: relative; top: 40%;">	<h1>Works/Projects</h1></div></div>
+    		<div class="para3text">Nothing as of now.. Will update later..</div></div>
+<!-- 
+
+
+
+
+
+
+
+
+    		 -->
+    		 <div class="para4" id="Contact">
+    		 	<div style=" height: 300px;width: 300px;background-color: #4682B4; margin: auto; font-family: cursive; border-radius: 150px;">
+    		<div style="text-align: center; position: relative; top: 40%;">	<p style="font-size: 250%;"><b>Contact</b></p></div></div>
+    		<div style="position: relative;top: 100px;font-style: cursive;font-size: 150%; text-align: center; color: grey;">Feel free to ping me for any suggestions to the site..</div>
+    		<div class="para4icons">
+    			<div ><a class="material-icons" style="font-size: 60px;" href="mailto: arpitrai010@gmail.com">mail</a></div>
+    			<div><a class="material-icons" style="font-size: 60px;" href="https://www.facebook.com/arpitkumar.rai.58/">facebook</a></div>
+    			<div><a class="material-icons" style="font-size: 60px;" href="https://m.me/arpitkumar.rai.58">messenger</a></div>
+    		</div>
+    		 </div>
+<!-- 
+
+
+
+
+footer
+
+
+
+
+    	 -->
+    	<div class="footer">
+    		<p style="position: relative;top:100px; text-align: center;  font-family: serif;">P.S. I designed this site coz I had nothing else to do xd.. No template has been used in its design. Everything has been coded from scratch by me. Any suggestions are warmly welcome.</p>
+    		<p style="position: absolute;  text-align: center; right: 40%; bottom: 0px; font-family: sans-serif;">All rights reserved.<br>Copyright Arpit Kumar Rai<br>Written this only coz it sounds cool :P</p></div>
+    </body>
+</html>
